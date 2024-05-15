@@ -1,0 +1,38 @@
+name: merge script
+on:
+  workflow_dispatch:
+  schedule:
+  - cron: 0 0/6 * * *
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout
+      uses: actions/checkout@master
+
+    - name: checkout script
+      uses: actions/checkout@master
+      with:
+        repository: gohopo/SubMerge
+        ref: release
+        token: ${{ secrets.GH_TOKEN }}
+
+    - name: setup dotnet
+      uses: actions/setup-dotnet@master
+      with:
+        dotnet-version: '8.0.x'
+
+    - name: run merge
+      run: SubMerge
+
+    - name: push to sub branch
+      run: |
+        cd sub || exit 1
+        git init
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git checkout -b sub
+        git add .
+        git commit -m "Updated at $(date '+%Y-%m-%d %H:%M:%S')"
+        git remote add origin "https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}"
+        git push -f -u origin sub

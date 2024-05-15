@@ -1,0 +1,10 @@
+{
+  "Sources": [
+    {
+      "Name": "NoMoreWalls",
+      "Urls": [
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+      ]
+    }
+  ]
+}
