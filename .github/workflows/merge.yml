@@ -3,6 +3,11 @@ on:
   workflow_dispatch:
   schedule:
   - cron: 0 0/6 * * *
+  push:
+    branches:
+    - main
+    paths-ignore:
+    - "**/README.md"
 jobs:
   merge:
     runs-on: ubuntu-latest
@@ -16,6 +21,10 @@ jobs:
         repository: gohopo/SubMerge
         ref: release
         token: ${{ secrets.GH_TOKEN }}
+        path: scripts
+
+    - name: move scripts
+      run: mv scripts/* .
 
     - name: setup dotnet
       uses: actions/setup-dotnet@master
@@ -23,7 +32,7 @@ jobs:
         dotnet-version: '8.0.x'
 
     - name: run merge
-      run: SubMerge
+      run: ./SubMerge
 
     - name: push to sub branch
       run: |
