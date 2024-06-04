@@ -1,9 +1,66 @@
 {
   "Sources": [
     {
+      "Name": "ermaozi01",
+      "Urls": [
+        "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt"
+      ]
+    },
+    {
+      "Name": "Ruk1ng001",
+      "Urls": [
+        "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray"
+      ]
+    },
+    {
+      "Name": "ripaojiedian",
+      "Urls": [
+        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+      ]
+    },
+    {
       "Name": "NoMoreWalls",
       "Urls": [
         "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+      ]
+    },
+    {
+      "Name": "vxiaov",
+      "Urls": [
+        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
+        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt"
+      ]
+    },
+    {
+      "Name": "aiboboxx",
+      "Urls": [
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
+      ]
+    },
+    {
+      "Name": "anaer",
+      "Urls": [
+        "https://raw.githubusercontent.com/anaer/Sub/main/mihomo.yaml"
+      ]
+    },
+    {
+      "Name": "Pawdroid",
+      "Urls": [
+        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+      ]
+    },
+    {
+      "Name": "TrojanLinks",
+      "Urls": [
+        "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/trojan",
+        "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/vless",
+        "https://raw.githubusercontent.com/Huibq/TrojanLinks/master/links/ss"
+      ]
+    },
+    {
+      "Name": "passcro",
+      "Urls": [
+        "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
       ]
     }
   ]
