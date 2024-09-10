@@ -73,6 +73,36 @@
       ]
     },
     {
+      "Name": "ssrsub",
+      "Urls": [
+        "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
+      ]
+    },
+    {
+      "Name": "dawnli",
+      "Urls": [
+        "https://proxy.dawnli.me"
+      ]
+    },
+    {
+      "Name": "ip13919622053",
+      "Urls": [
+        "http://139.196.220.53:8081"
+      ]
+    },
+    {
+      "Name": "xiniah",
+      "Urls": [
+        "https://sub.xiniah.top"
+      ]
+    },
+    {
+      "Name": "cljpginfts",
+      "Urls": [
+        "https://cl.jpg.infts.site"
+      ]
+    },
+    {
       "Name": "机场订阅聚合",
       "Urls": [
         "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml",
