@@ -103,6 +103,12 @@
       ]
     },
     {
+      "Name": "WhyMeta",
+      "Urls": [
+        "https://gist.githubusercontent.com/WhyMeta/592329b1a03d35b3ce82555757f38a9d/raw/VlessFiercelyFuck"
+      ]
+    },
+    {
       "Name": "机场订阅聚合",
       "Urls": [
         "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml",
