@@ -1,5 +1,5 @@
 {
-  "Exclude": "中国",
+  "Exclude": "中国|a.ssll.gay",
   "Sources": [
     {
       "Name": "自用",
@@ -79,12 +79,6 @@
       ]
     },
     {
-      "Name": "dawnli",
-      "Urls": [
-        "https://proxy.dawnli.me"
-      ]
-    },
-    {
       "Name": "ip13919622053",
       "Urls": [
         "http://139.196.220.53:8081"
@@ -105,7 +99,7 @@
     {
       "Name": "WhyMeta",
       "Urls": [
-        "https://gist.githubusercontent.com/WhyMeta/592329b1a03d35b3ce82555757f38a9d/raw/VlessFiercelyFuck"
+        "https://gist.githubusercontent.com/WhyMeta/f6612e6c959fe42184ad362f3835085b/raw/Fuck.Clash"
       ]
     },
     {
