@@ -2,12 +2,6 @@
   "Exclude": "中国|a.ssll.gay",
   "Sources": [
     {
-      "Name": "自用",
-      "Urls": [
-        "https://raw.githubusercontent.com/hopub/node/dev/v2.txt"
-      ]
-    },
-    {
       "Name": "ermaozi",
       "Urls": [
         "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt",
@@ -79,23 +73,9 @@
       ]
     },
     {
-      "Name": "ip13919622053",
-      "Urls": [
-        "http://139.196.220.53:8081"
-      ]
-    },
-    {
       "Name": "cljpginfts",
       "Urls": [
         "https://cl.jpg.infts.site"
-      ]
-    },
-    {
-      "Name": "WhyMeta",
-      "Urls": [
-        "https://gist.githubusercontent.com/WhyMeta/f6612e6c959fe42184ad362f3835085b/raw/52Pokemon.Clash.MetaCubeX",
-        "https://gist.githubusercontent.com/WhyMeta/f6612e6c959fe42184ad362f3835085b/raw/RetirementAirport.Clash.Meta.mihomo",
-        "https://gist.githubusercontent.com/WhyMeta/f6612e6c959fe42184ad362f3835085b/raw/Trojan.Clash.MetaCubeX"
       ]
     },
     {
