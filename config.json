@@ -34,7 +34,7 @@
     {"Name":"🌍 其他负载", "Type":"load-balance", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
     {"Name":"🛑 全球拦截", "Type":"select", "Proxies":["REJECT", "DIRECT"]}, 
     {"Name":"🎯 全球直连", "Type":"select", "Proxies":["DIRECT", "🚀 代理"]}, 
-    {"Name":"🐟 漏网之鱼", "Type":"select", "Proxies":["🚀 代理", "DIRECT"]}
+    {"Name":"🐟 漏网之鱼", "Type":"select", "Proxies":["DIRECT", "🚀 代理"]}
   ], 
   "Rules": [
     {"Method":"RULE-SET", "Match":"geosite-category-ads-all", "Outbound":"🛑 全球拦截"}, 
