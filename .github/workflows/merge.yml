@@ -2,7 +2,7 @@ name: merge script
 on:
   workflow_dispatch:
   schedule:
-  - cron: 0 0/6 * * *
+  - cron: 0 0/4 * * *
   push:
     branches:
     - main
@@ -29,7 +29,7 @@ jobs:
     - name: setup dotnet
       uses: actions/setup-dotnet@master
       with:
-        dotnet-version: '8.0.x'
+        dotnet-version: '9.0.x'
 
     - name: run merge
       run: ./SubMerge
