@@ -1,5 +1,60 @@
 {
-  "Exclude": "中国|a.ssll.gay",
+  "ProxyGroups": [
+    {"Name":"🚀 代理", "Type":"select", "Proxies":["♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "🌍 其他"]}, 
+    {"Name":"♻️ 自动选择", "Type":"url-test", "IncludeAll":true}, 
+    {"Name":"🛫 代理节点", "Type":"select", "IncludeAll":true}, 
+    {"Name":"🔮 负载均衡", "Type":"load-balance", "IncludeAll":true}, 
+    {"Name":"🇭🇰 香港", "Type":"select", "Proxies":["🇭🇰 香港自动", "🇭🇰 香港节点", "🇭🇰 香港负载"]}, 
+    {"Name":"🇭🇰 香港自动", "Type":"url-test", "IncludeAll":true, "Include":["港|hk|hongkong|hong kong"]}, 
+    {"Name":"🇭🇰 香港节点", "Type":"select", "IncludeAll":true, "Include":["港|hk|hongkong|hong kong"]}, 
+    {"Name":"🇭🇰 香港负载", "Type":"load-balance", "IncludeAll":true, "Include":["港|hk|hongkong|hong kong"]}, 
+    {"Name":"🇹🇼 台湾", "Type":"select", "Proxies":["🇹🇼 台湾自动", "🇹🇼 台湾节点", "🇹🇼 台湾负载"]}, 
+    {"Name":"🇹🇼 台湾自动", "Type":"url-test", "IncludeAll":true, "Include":["台|tw|taiwan"]}, 
+    {"Name":"🇹🇼 台湾节点", "Type":"select", "IncludeAll":true, "Include":["台|tw|taiwan"]}, 
+    {"Name":"🇹🇼 台湾负载", "Type":"load-balance", "IncludeAll":true, "Include":["台|tw|taiwan"]}, 
+    {"Name":"🇯🇵 日本", "Type":"select", "Proxies":["🇯🇵 日本自动", "🇯🇵 日本节点", "🇯🇵 日本负载"]}, 
+    {"Name":"🇯🇵 日本自动", "Type":"url-test", "IncludeAll":true, "Include":["日本|jp|japan"]}, 
+    {"Name":"🇯🇵 日本节点", "Type":"select", "IncludeAll":true, "Include":["日本|jp|japan"]}, 
+    {"Name":"🇯🇵 日本负载", "Type":"load-balance", "IncludeAll":true, "Include":["日本|jp|japan"]}, 
+    {"Name":"🇰🇷 韩国", "Type":"select", "Proxies":["🇰🇷 韩国自动", "🇰🇷 韩国节点", "🇰🇷 韩国负载"]}, 
+    {"Name":"🇰🇷 韩国自动", "Type":"url-test", "IncludeAll":true, "Include":["韩国|kr|korea"]}, 
+    {"Name":"🇰🇷 韩国节点", "Type":"select", "IncludeAll":true, "Include":["韩国|kr|korea"]}, 
+    {"Name":"🇰🇷 韩国负载", "Type":"load-balance", "IncludeAll":true, "Include":["韩国|kr|korea"]}, 
+    {"Name":"🇺🇸 美国", "Type":"select", "Proxies":["🇺🇸 美国自动", "🇺🇸 美国节点", "🇺🇸 美国负载"]}, 
+    {"Name":"🇺🇸 美国自动", "Type":"url-test", "IncludeAll":true, "Include":["美|us|united states|america"]}, 
+    {"Name":"🇺🇸 美国节点", "Type":"select", "IncludeAll":true, "Include":["美|us|united states|america"]}, 
+    {"Name":"🇺🇸 美国负载", "Type":"load-balance", "IncludeAll":true, "Include":["美|us|united states|america"]}, 
+    {"Name":"🇸🇬 新加坡", "Type":"select", "Proxies":["🇸🇬 新加坡自动", "🇸🇬 新加坡节点", "🇸🇬 新加坡负载"]}, 
+    {"Name":"🇸🇬 新加坡自动", "Type":"url-test", "IncludeAll":true, "Include":["新|sg|singapore"]}, 
+    {"Name":"🇸🇬 新加坡节点", "Type":"select", "IncludeAll":true, "Include":["新|sg|singapore"]}, 
+    {"Name":"🇸🇬 新加坡负载", "Type":"load-balance", "IncludeAll":true, "Include":["新|sg|singapore"]}, 
+    {"Name":"🌍 其他", "Type":"select", "Proxies":["🌍 其他自动", "🌍 其他节点", "🌍 其他负载"]}, 
+    {"Name":"🌍 其他自动", "Type":"url-test", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
+    {"Name":"🌍 其他节点", "Type":"select", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
+    {"Name":"🌍 其他负载", "Type":"load-balance", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
+    {"Name":"🛑 全球拦截", "Type":"select", "Proxies":["REJECT", "DIRECT"]}, 
+    {"Name":"🎯 全球直连", "Type":"select", "Proxies":["DIRECT", "🚀 代理"]}, 
+    {"Name":"🐟 漏网之鱼", "Type":"select", "Proxies":["🚀 代理", "DIRECT"]}
+  ], 
+  "Rules": [
+    {"Method":"RULE-SET", "Match":"geosite-category-ads-all", "Outbound":"🛑 全球拦截"}, 
+    {"Method":"RULE-SET", "Match":"geosite-private", "Outbound":"🎯 全球直连"}, 
+    {"Method":"RULE-SET", "Match":"geosite-tracker", "Outbound":"🎯 全球直连"}, 
+    {"Method":"RULE-SET", "Match":"geosite-cn", "Outbound":"🎯 全球直连"}, 
+    {"Method":"RULE-SET", "Match":"geosite-gfw", "Outbound":"🚀 代理"}, 
+    {"Method":"RULE-SET", "Match":"geoip-private", "Outbound":"🎯 全球直连", "NoResolve":true}, 
+    {"Method":"RULE-SET", "Match":"geoip-cn", "Outbound":"🎯 全球直连", "NoResolve":true}, 
+    {"Method":"MATCH", "Outbound":"🐟 漏网之鱼"}
+  ], 
+  "RuleSets": [
+    {"Name":"geoip-cn", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geoip/cn.mrs", "Behavior":"ipcidr"}, 
+    {"Name":"geoip-private", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geoip/private.mrs", "Behavior":"ipcidr"}, 
+    {"Name":"geosite-category-ads-all", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/category-ads-all.mrs"}, 
+    {"Name":"geosite-cn", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/cn.mrs"}, 
+    {"Name":"geosite-gfw", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/gfw.mrs"}, 
+    {"Name":"geosite-private", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/private.mrs"}, 
+    {"Name":"geosite-tracker", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/tracker.mrs"}
+  ],
   "Sources": [
     {
       "Name": "ermaozi",
@@ -73,19 +128,12 @@
       ]
     },
     {
-      "Name": "cljpginfts",
-      "Urls": [
-        "https://cl.jpg.infts.site"
-      ]
-    },
-    {
       "Name": "机场订阅聚合",
       "Urls": [
         "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml",
-        "https://raw.githubusercontent.com/au3300/aggregator/main/data/clash.yaml",
         "http://172.245.30.41/v2ray.txt",
-        "https://mxlsub.me/newfull",
-        "https://mxlsub.me/aggregatorfull"
+        "https://mxlsub.me/free",
+        "https://mxlsub.me/newfull"
       ]
     }
   ]
