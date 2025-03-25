@@ -34,26 +34,27 @@
     {"Name":"🌍 其他负载", "Type":"load-balance", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
     {"Name":"🛑 全球拦截", "Type":"select", "Proxies":["REJECT", "DIRECT"]}, 
     {"Name":"🎯 全球直连", "Type":"select", "Proxies":["DIRECT", "🚀 代理"]}, 
-    {"Name":"🐟 漏网之鱼", "Type":"select", "Proxies":["DIRECT", "🚀 代理"]}
+    {"Name":"🐟 漏网之鱼", "Type":"select", "Proxies":["🚀 代理", "DIRECT"]}
   ], 
   "Rules": [
-    {"Method":"RULE-SET", "Match":"geosite-category-ads-all", "Outbound":"🛑 全球拦截"}, 
-    {"Method":"RULE-SET", "Match":"geosite-private", "Outbound":"🎯 全球直连"}, 
-    {"Method":"RULE-SET", "Match":"geosite-tracker", "Outbound":"🎯 全球直连"}, 
-    {"Method":"RULE-SET", "Match":"geosite-cn", "Outbound":"🎯 全球直连"}, 
-    {"Method":"RULE-SET", "Match":"geosite-gfw", "Outbound":"🚀 代理"}, 
-    {"Method":"RULE-SET", "Match":"geoip-private", "Outbound":"🎯 全球直连", "NoResolve":true}, 
-    {"Method":"RULE-SET", "Match":"geoip-cn", "Outbound":"🎯 全球直连", "NoResolve":true}, 
+    {"Method":"RULE-SET", "Match":"private", "Outbound":"🎯 全球直连"}, 
+    {"Method":"RULE-SET", "Match":"ads", "Outbound":"🛑 全球拦截"}, 
+    {"Method":"RULE-SET", "Match":"tracker", "Outbound":"🎯 全球直连"}, 
+    {"Method":"RULE-SET", "Match":"gfw", "Outbound":"🚀 代理"}, 
+    {"Method":"RULE-SET", "Match":"cn", "Outbound":"🎯 全球直连"}, 
+    {"Method":"RULE-SET", "Match":"privateip", "Outbound":"🎯 全球直连", "NoResolve":true}, 
+    {"Method":"RULE-SET", "Match":"cnip", "Outbound":"🎯 全球直连", "NoResolve":true}, 
     {"Method":"MATCH", "Outbound":"🐟 漏网之鱼"}
   ], 
   "RuleSets": [
-    {"Name":"geoip-cn", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geoip/cn.mrs", "Behavior":"ipcidr"}, 
-    {"Name":"geoip-private", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geoip/private.mrs", "Behavior":"ipcidr"}, 
-    {"Name":"geosite-category-ads-all", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/category-ads-all.mrs"}, 
-    {"Name":"geosite-cn", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/cn.mrs"}, 
-    {"Name":"geosite-gfw", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/gfw.mrs"}, 
-    {"Name":"geosite-private", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/private.mrs"}, 
-    {"Name":"geosite-tracker", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/tracker.mrs"}
+    {"Name":"cnip", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geoip/cn.mrs", "Behavior":"ipcidr"}, 
+    {"Name":"privateip", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geoip/private.mrs", "Behavior":"ipcidr"}, 
+    {"Name":"ads", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/category-ads-all.mrs"}, 
+    {"Name":"cn", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/cn.mrs"}, 
+    {"Name":"gfw", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/gfw.mrs"}, 
+    {"Name":"private", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/private.mrs"}, 
+    {"Name":"tracker", "Url":"https://raw.githubusercontent.com/hopub/meta-rules-dat/meta/geo/geosite/tracker.mrs"},
+    {"Name":"fakeip-filter", "Url":"https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/fakeip-filter.mrs"}
   ],
   "Sources": [
     {
