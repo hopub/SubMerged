@@ -69,9 +69,23 @@
       ]
     },
     {
+      "Name": "bestrui",
+      "Urls": [
+        "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/all.yaml"
+      ]
+    },
+    {
       "Name": "chengaopan",
       "Urls": [
         "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
+      ]
+    },
+    {
+      "Name": "重定向_cf",
+      "Urls": [
+        "https://www.abcd789.eu.org/api/public/dl/OUqF3vIu/cloudflare/clash_yaml/V1.yaml",
+        "https://www.pub987.nyc.mn/api/public/dl/OUqF3vIu/cloudflare/clash_yaml/V1.yaml",
+        "https://f.pub987.nyc.mn/api/public/dl/OUqF3vIu/cloudflare/clash_yaml/V1.yaml"
       ]
     },
     {
@@ -120,6 +134,20 @@
       "Name": "mxlsub",
       "Urls": [
         "https://mxlsub.me/newfull"
+      ]
+    },
+    {
+      "Name": "ndllz",
+      "Urls": [
+        "https://sub.ndllz.me/sub",
+        "https://sub.ndllz.me/sub2",
+        "https://sub.ndllz.me/sub3",
+        "https://sub.ndllz.me/sub4",
+        "https://sub.ndllz.me/sub5",
+        "https://sub.ndllz.me/sub6",
+        "https://sub.ndllz.me/backup",
+        "https://sub.ndllz.me/backup2",
+        "https://sub.ndllz.me/serv00",
       ]
     },
     {
