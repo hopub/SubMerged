@@ -1,6 +1,6 @@
 {
   "ProxyGroups": [
-    {"Name":"🚀 代理", "Type":"select", "Proxies":["♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "🌍 其他"]}, 
+    {"Name":"🚀 代理", "Type":"select", "Proxies":["♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "☁️ Cloudflare", "🌍 其他"]}, 
     {"Name":"♻️ 自动选择", "Type":"url-test", "IncludeAll":true}, 
     {"Name":"🛫 代理节点", "Type":"select", "IncludeAll":true}, 
     {"Name":"🔮 负载均衡", "Type":"load-balance", "IncludeAll":true}, 
@@ -28,12 +28,16 @@
     {"Name":"🇸🇬 新加坡自动", "Type":"url-test", "IncludeAll":true, "Include":["新加坡|坡|狮城|SG|Singapore"]}, 
     {"Name":"🇸🇬 新加坡节点", "Type":"select", "IncludeAll":true, "Include":["新加坡|坡|狮城|SG|Singapore"]}, 
     {"Name":"🇸🇬 新加坡负载", "Type":"load-balance", "IncludeAll":true, "Include":["新加坡|坡|狮城|SG|Singapore"]}, 
+    {"Name":"☁️ Cloudflare", "Type":"select", "Proxies":["☁️ Cloudflare自动", "☁️ Cloudflare节点", "☁️ Cloudflare负载"]}, 
+    {"Name":"☁️ Cloudflare自动", "Type":"url-test", "IncludeAll":true, "Include":["(?i)cf|Cloudflare"]}, 
+    {"Name":"☁️ Cloudflare节点", "Type":"select", "IncludeAll":true, "Include":["(?i)cf|Cloudflare"]}, 
+    {"Name":"☁️ Cloudflare负载", "Type":"load-balance", "IncludeAll":true, "Include":["(?i)cf|Cloudflare"]}, 
     {"Name":"🌍 其他", "Type":"select", "Proxies":["🌍 其他自动", "🌍 其他节点", "🌍 其他负载"]}, 
     {"Name":"🌍 其他自动", "Type":"url-test", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
     {"Name":"🌍 其他节点", "Type":"select", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
     {"Name":"🌍 其他负载", "Type":"load-balance", "IncludeAll":true, "Include":["(?i)^(?!.*(港|台|日|韩|美|新|hk|tw|jp|kr|us|sg)).*"]}, 
-    {"Name":"🇬 谷歌服务", "Type":"select", "Proxies":["🚀 代理", "🎯 全球直连", "♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "🌍 其他"]}, 
-    {"Name":"🤖 人工智能", "Type":"select", "Proxies":["🚀 代理", "🎯 全球直连", "♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "🌍 其他"]}, 
+    {"Name":"🇬 谷歌服务", "Type":"select", "Proxies":["🚀 代理", "🎯 全球直连", "♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "☁️ Cloudflare", "🌍 其他"]}, 
+    {"Name":"🤖 人工智能", "Type":"select", "Proxies":["🚀 代理", "🎯 全球直连", "♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "☁️ Cloudflare", "🌍 其他"]}, 
     {"Name":"🛑 全球拦截", "Type":"select", "Proxies":["REJECT", "🎯 全球直连"]}, 
     {"Name":"🎯 全球直连", "Type":"select", "Proxies":["DIRECT", "🚀 代理"]}, 
     {"Name":"🐟 漏网之鱼", "Type":"select", "Proxies":["🚀 代理", "🎯 全球直连"]}
@@ -53,17 +57,91 @@
   ], 
   "Sources": [
     {
+      "Name": "aiboboxx",
+      "Urls": [
+        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
+      ]
+    },
+    {
+      "Name": "anaer_cf",
+      "Urls": [
+        "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml"
+      ]
+    },
+    {
+      "Name": "chengaopan",
+      "Urls": [
+        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
+      ]
+    },
+    {
       "Name": "ermaozi",
       "Urls": [
-        "https://raw.githubusercontent.com/ermaozi01/free_clash_vpn/main/subscribe/v2ray.txt",
-        "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt",
         "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
       ]
     },
     {
-      "Name": "Ruk1ng001",
+      "Name": "firefoxmmx2",
       "Urls": [
-        "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray"
+        "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml"
+      ]
+    },
+    {
+      "Name": "free18",
+      "Urls": [
+        "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml"
+      ]
+    },
+    {
+      "Name": "go4sharing",
+      "Urls": [
+        "https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml"
+      ]
+    },
+    {
+      "Name": "mai19950",
+      "Urls": [
+        "https://raw.githubusercontent.com/mai19950/clashgithub_com/refs/heads/main/site"
+      ]
+    },
+    {
+      "Name": "mfbpn",
+      "Urls": [
+        "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml"
+      ]
+    },
+    {
+      "Name": "mgit0001",
+      "Urls": [
+        "https://raw.githubusercontent.com/mgit0001/test_clash/refs/heads/main/heima.txt"
+      ]
+    },
+    {
+      "Name": "mxlsub",
+      "Urls": [
+        "https://mxlsub.me/newfull"
+      ]
+    },
+    {
+      "Name": "Pawdroid",
+      "Urls": [
+        "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub"
+      ]
+    },
+    {
+      "Name": "Q3dlaXpoaQ",
+      "Urls": [
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc2.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc4.yaml"
+      ]
+    },
+    {
+      "Name": "qjlxg",
+      "Urls": [
+        "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml"
       ]
     },
     {
@@ -73,34 +151,21 @@
       ]
     },
     {
-      "Name": "NoMoreWalls",
+      "Name": "Roywaller",
       "Urls": [
-        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.meta.yml"
+        "https://raw.githubusercontent.com/Roywaller/clash_subscription/refs/heads/main/clash_subscription.txt"
       ]
     },
     {
-      "Name": "vxiaov",
+      "Name": "Ruk1ng001",
       "Urls": [
-        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
-        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt"
+        "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
       ]
     },
     {
-      "Name": "aiboboxx",
+      "Name": "snakem982_cf",
       "Urls": [
-        "https://raw.githubusercontent.com/aiboboxx/v2rayfree/main/v2"
-      ]
-    },
-    {
-      "Name": "anaer",
-      "Urls": [
-        "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
-      ]
-    },
-    {
-      "Name": "Pawdroid",
-      "Urls": [
-        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+        "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
       ]
     },
     {
@@ -112,24 +177,15 @@
       ]
     },
     {
-      "Name": "passcro",
+      "Name": "vxiaov",
       "Urls": [
-        "https://raw.githubusercontent.com/zhangkaiitugithub/passcro/main/speednodes.yaml"
+        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
       ]
     },
     {
-      "Name": "ssrsub",
+      "Name": "xiaoji235",
       "Urls": [
-        "https://raw.githubusercontent.com/ssrsub/ssr/master/V2Ray"
-      ]
-    },
-    {
-      "Name": "机场订阅聚合",
-      "Urls": [
-        "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml",
-        "http://172.245.30.41/v2ray.txt",
-        "https://mxlsub.me/free",
-        "https://mxlsub.me/newfull"
+        "https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/clash/naidounode.txt"
       ]
     }
   ]
