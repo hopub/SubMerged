@@ -65,7 +65,7 @@
     {
       "Name": "anaer_cf",
       "Urls": [
-        "https://raw.githubusercontent.com/anaer/Sub/refs/heads/main/clash.yaml"
+        "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
       ]
     },
     {
@@ -77,33 +77,25 @@
     {
       "Name": "chengaopan",
       "Urls": [
-        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
-      ]
-    },
-    {
-      "Name": "重定向_cf",
-      "Urls": [
-        "https://www.abcd789.eu.org/api/public/dl/OUqF3vIu/cloudflare/clash_yaml/V1.yaml",
-        "https://www.pub987.nyc.mn/api/public/dl/OUqF3vIu/cloudflare/clash_yaml/V1.yaml",
-        "https://f.pub987.nyc.mn/api/public/dl/OUqF3vIu/cloudflare/clash_yaml/V1.yaml"
+        "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.txt"
       ]
     },
     {
       "Name": "ermaozi",
       "Urls": [
-        "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+        "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
       ]
     },
     {
       "Name": "firefoxmmx2",
       "Urls": [
-        "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/clash_sub.yaml"
+        "https://raw.githubusercontent.com/firefoxmmx2/v2rayshare_subcription/main/subscription/vray_sub.txt"
       ]
     },
     {
       "Name": "free18",
       "Urls": [
-        "https://raw.githubusercontent.com/free18/v2ray/refs/heads/main/c.yaml"
+        "https://raw.githubusercontent.com/free18/v2ray/main/v.txt"
       ]
     },
     {
@@ -115,19 +107,19 @@
     {
       "Name": "mai19950",
       "Urls": [
-        "https://raw.githubusercontent.com/mai19950/clashgithub_com/refs/heads/main/site"
+        "https://raw.githubusercontent.com/mai19950/clashgithub_com/main/site"
       ]
     },
     {
       "Name": "mfbpn",
       "Urls": [
-        "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial.yaml"
+        "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial"
       ]
     },
     {
       "Name": "mgit0001",
       "Urls": [
-        "https://raw.githubusercontent.com/mgit0001/test_clash/refs/heads/main/heima.txt"
+        "https://raw.githubusercontent.com/mgit0001/test_clash/main/heima.txt"
       ]
     },
     {
@@ -139,61 +131,68 @@
     {
       "Name": "ndllz",
       "Urls": [
-        "https://sub.ndllz.me/sub",
-        "https://sub.ndllz.me/sub2",
-        "https://sub.ndllz.me/sub3",
         "https://sub.ndllz.me/sub4",
         "https://sub.ndllz.me/sub5",
-        "https://sub.ndllz.me/sub6",
         "https://sub.ndllz.me/backup",
-        "https://sub.ndllz.me/backup2",
         "https://sub.ndllz.me/serv00"
       ]
     },
     {
       "Name": "Pawdroid",
       "Urls": [
-        "https://raw.githubusercontent.com/Pawdroid/Free-servers/refs/heads/main/sub"
+        "https://raw.githubusercontent.com/Pawdroid/Free-servers/main/sub"
+      ]
+    },
+    {
+      "Name": "peasoft",
+      "Urls": [
+        "https://raw.githubusercontent.com/peasoft/NoMoreWalls/master/list.txt"
       ]
     },
     {
       "Name": "Q3dlaXpoaQ",
       "Urls": [
-        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc0.yaml",
-        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc1.yaml",
-        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc2.yaml",
-        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc3.yaml",
-        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/refs/heads/main/APIs/sc4.yaml"
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/cg0.txt",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/cg1.txt",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/cg2.txt",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/cg3.txt",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/cg4.txt",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc0.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc1.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc2.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc3.yaml",
+        "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/sc4.yaml"
       ]
     },
     {
       "Name": "qjlxg",
       "Urls": [
-        "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/clash.yaml"
+        "https://raw.githubusercontent.com/qjlxg/aggregator/main/data/v2ray.txt"
       ]
     },
     {
       "Name": "ripaojiedian",
       "Urls": [
-        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/clash"
+        "https://raw.githubusercontent.com/ripaojiedian/freenode/main/sub"
       ]
     },
     {
       "Name": "Roywaller",
       "Urls": [
-        "https://raw.githubusercontent.com/Roywaller/clash_subscription/refs/heads/main/clash_subscription.txt"
+        "https://raw.githubusercontent.com/Roywaller/clash_subscription/main/clash_subscription.txt"
       ]
     },
     {
       "Name": "Ruk1ng001",
       "Urls": [
-        "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
+        "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray"
       ]
     },
     {
-      "Name": "snakem982_cf",
+      "Name": "snakem982",
       "Urls": [
-        "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
+        "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt",
+        "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt"
       ]
     },
     {
@@ -207,13 +206,14 @@
     {
       "Name": "vxiaov",
       "Urls": [
-        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml"
+        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/clash/clash.provider.yaml",
+        "https://raw.githubusercontent.com/vxiaov/free_proxies/main/links.txt"
       ]
     },
     {
       "Name": "xiaoji235",
       "Urls": [
-        "https://raw.githubusercontent.com/xiaoji235/airport-free/refs/heads/main/clash/naidounode.txt"
+        "https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt"
       ]
     }
   ]
