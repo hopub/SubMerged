@@ -71,6 +71,9 @@
     {
       "Name": "bestrui",
       "Urls": [
+        "https://v1.mk/wvJTV5I"
+      ],
+      "UrlsBackup": [
         "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/all.yaml"
       ]
     },
@@ -101,6 +104,9 @@
     {
       "Name": "go4sharing",
       "Urls": [
+        "https://s.ops.ci/yl0pZsp"
+      ],
+      "UrlsBackup": [
         "https://raw.githubusercontent.com/go4sharing/sub/main/sub.yaml"
       ]
     },
@@ -175,18 +181,13 @@
       ]
     },
     {
-      "Name": "Roywaller",
-      "Urls": [
-        "https://raw.githubusercontent.com/Roywaller/clash_subscription/main/clash_subscription.txt"
-      ]
-    },
-    {
       "Name": "Ruk1ng001",
       "Urls": [
         "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/v2ray"
       ]
     },
     {
+      "Exclude": "中国",
       "Name": "snakem982",
       "Urls": [
         "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt",
