@@ -84,7 +84,9 @@
       ]
     },
     {
+      "Enabled": false,
       "Name": "ermaozi",
+      "说明": "低ping投毒",
       "Urls": [
         "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/v2ray.txt"
       ]
@@ -102,7 +104,9 @@
       ]
     },
     {
+      "Enabled": false,
       "Name": "go4sharing",
+      "说明": "低ping投毒",
       "Urls": [
         "https://s.ops.ci/yl0pZsp"
       ],
@@ -199,7 +203,6 @@
       ]
     },
     {
-      "Exclude": "中国",
       "Name": "snakem982",
       "Urls": [
         "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt",
