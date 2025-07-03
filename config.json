@@ -179,7 +179,9 @@
       ]
     },
     {
+      "Enabled": false,
       "Name": "Q3dlaXpoaQ",
+      "说明": "低ping投毒",
       "Urls": [
         "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/cg0.txt",
         "https://raw.githubusercontent.com/Q3dlaXpoaQ/V2rayN_Clash_Node_Getter/main/APIs/cg1.txt",
