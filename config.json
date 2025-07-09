@@ -158,6 +158,12 @@
       ]
     },
     {
+      "Name": "ld773594",
+      "Urls": [
+        "https://sub-converter.802114.xyz/getprofile?name=vmessv2all.ini&token=password"
+      ]
+    },
+    {
       "Name": "mfbpn",
       "Urls": [
         "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial"
@@ -219,7 +225,6 @@
     {
       "Name": "snakem982",
       "Urls": [
-        "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray.txt",
         "https://raw.githubusercontent.com/snakem982/proxypool/main/source/v2ray-2.txt"
       ]
     },
