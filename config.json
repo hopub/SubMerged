@@ -259,6 +259,6 @@
     }
   ],
   "Tags": [
-    {"Name": "cf", "Pattern": "(?:ed=2560|cloudflare|laoyoutiao.link|asdasd.click)"}
+    {"Name": "cf", "Pattern": "(?i:ed=|cloudflare|laoyoutiao.link|asdasd.click|\/telegram)"}
   ]
 }
