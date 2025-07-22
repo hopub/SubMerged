@@ -124,13 +124,13 @@
     {
       "Name": "ld678514",
       "Urls": [
-        "https://xbox.crvesoft.top/s/f97e5d9dfb1e113846bdabe001ca3e58"
+        "https://xbox.crvesoft.top/s/d36204ebffe51addc0fa2fb046d0dd9a"
       ]
     },
     {
       "Name": "ld708871",
       "Urls": [
-        "https://alice.dns-dynamic.net/linuxdo-5506c42a-f3bc-4a9d-89fa-584f80bf1022/config.txt"
+        "https://alice.dns-dynamic.net/linuxdo-61adfb02-60cc-4b62-8390-cd95b91e70d1/config.txt"
       ]
     },
     {
@@ -224,7 +224,9 @@
     {
       "Name": "snakem982",
       "Urls": [
-        "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/clash-meta.yaml"
+        "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/clash-meta.yaml",
+        "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/clash-meta-2.yaml",
+        "https://raw.githubusercontent.com/snakem982/proxypool/refs/heads/main/source/v2ray-2.txt"
       ]
     },
     {
@@ -246,7 +248,7 @@
       "Name": "wzdnzd",
       "来源": "https://github.com/wzdnzd/aggregator/issues/91",
       "Urls": [
-        "https://ohayoo-pm.hf.space/api/v1/subscribe?token=01i2b9ohx85c0ltw&target=v2ray"
+        "https://ohayoo-pm.hf.space/api/v1/subscribe?token=l0b4i8i44u2kzlbh&target=v2ray"
       ]
     },
     {
