@@ -257,6 +257,6 @@
     }
   ],
   "Tags": [
-    {"Name": "cf", "Pattern": "(?:ed=2560)"}
+    {"Name": "cf", "Pattern": "(?:ed=2560|cloudflare|laoyoutiao.link)"}
   ]
 }
