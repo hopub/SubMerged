@@ -49,7 +49,6 @@
     {"Method":"RULE-SET", "Match":"google", "Outbound":"🇬 谷歌服务"}, 
     {"Method":"RULE-SET", "Match":"ai", "Outbound":"🤖 人工智能"}, 
     {"Method":"RULE-SET", "Match":"proxy", "Outbound":"🚀 代理"}, 
-    {"Method":"RULE-SET", "Match":"tld-cn", "Outbound":"🎯 全球直连"}, 
     {"Method":"RULE-SET", "Match":"cn", "Outbound":"🎯 全球直连"}, 
     {"Method":"RULE-SET", "Match":"privateip", "Outbound":"🎯 全球直连", "NoResolve":true}, 
     {"Method":"RULE-SET", "Match":"cnip", "Outbound":"🎯 全球直连", "NoResolve":true}, 
