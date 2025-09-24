@@ -123,7 +123,7 @@
     {
       "Name": "ld678514",
       "Urls": [
-        "https://xbox.crvesoft.top/s/1d013a52296339309785c037395d447d"
+        "https://xbox.crvesoft.top/s/d226fa61cd166e845702b1c65b646207"
       ]
     },
     {
@@ -154,15 +154,9 @@
       ]
     },
     {
-      "Name": "ld838858",
+      "Name": "ld975491",
       "Urls": [
-        "https://linuxdo.pkq.mom/"
-      ]
-    },
-    {
-      "Name": "ld934200",
-      "Urls": [
-        "https://alice.dns-dynamic.net/linuxdo-90507a01-c88a-424b-81de-c2082aafb595/config.txt"
+        "https://rss.zyfx6.xyz/v2rayNG/"
       ]
     },
     {
@@ -253,13 +247,23 @@
       "Name": "wzdnzd",
       "来源": "https://github.com/wzdnzd/aggregator/issues/91",
       "Urls": [
-        "https://pm.enjoy.cloudns.biz/api/v1/subscribe?token=l0b4i8i44u2kzlbh&target=v2ray"
+        "https://pm.enjoy.cloudns.biz/api/v1/subscribe?token=x1l35glkozrb5qz5&target=v2ray"
       ]
     },
     {
       "Name": "xiaoji235",
       "Urls": [
         "https://raw.githubusercontent.com/xiaoji235/airport-free/main/v2ray.txt"
+      ]
+    },
+    {
+      "Name": "yangxiaoge",
+      "Urls": [
+        "https://github.com/yangxiaoge/tvbox_cust/raw/refs/heads/master/clash/Clash1.yml",
+        "https://github.com/yangxiaoge/tvbox_cust/raw/refs/heads/master/clash/Clash2.yml",
+        "https://github.com/yangxiaoge/tvbox_cust/raw/refs/heads/master/clash/Clash3.yml",
+        "https://github.com/yangxiaoge/tvbox_cust/raw/refs/heads/master/clash/Clash5.yml",
+        "https://github.com/yangxiaoge/tvbox_cust/raw/refs/heads/master/clash/Clash6.yml"
       ]
     }
   ],
