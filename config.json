@@ -121,12 +121,6 @@
       ]
     },
     {
-      "Name": "ld678514",
-      "Urls": [
-        "https://xbox.crvesoft.top/s/d226fa61cd166e845702b1c65b646207"
-      ]
-    },
-    {
       "Name": "ld715773",
       "Urls": [
         "https://gist.githubusercontent.com/beck-8/e10ed37ebad8f4e1b38ccb8248cf264c/raw/4a9b36af30766b273424989101233b44a2fd782b/base64.txt"
@@ -247,7 +241,8 @@
       "Name": "wzdnzd",
       "来源": "https://github.com/wzdnzd/aggregator/issues/91",
       "Urls": [
-        "https://pm.enjoy.cloudns.biz/api/v1/subscribe?token=x1l35glkozrb5qz5&target=v2ray"
+        "https://pm.enjoy.cloudns.biz/api/v1/subscribe?token=x1l35glkozrb5qz5&target=v2ray",
+        "https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=x1l35glkozrb5qz5&target=v2ray"
       ]
     },
     {
