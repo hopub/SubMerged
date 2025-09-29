@@ -154,6 +154,13 @@
       ]
     },
     {
+      "Name": "ld993903",
+      "Urls": [
+        "https://x-io.pages.dev/v2ray.txt",
+        "https://x-io.pages.dev/mihomo.yaml"
+      ]
+    },
+    {
       "Name": "mfbpn",
       "Urls": [
         "https://raw.githubusercontent.com/mfbpn/tg_mfbpn_sub/main/trial"
