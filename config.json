@@ -1,9 +1,9 @@
 {
   "ProxyGroups": [
     {"Name":"🚀 代理", "Type":"select", "Proxies":["♻️ 自动选择", "🛫 代理节点", "🔮 负载均衡", "🇭🇰 香港", "🇹🇼 台湾", "🇯🇵 日本", "🇰🇷 韩国", "🇺🇸 美国", "🇸🇬 新加坡", "☁️ Cloudflare", "🌍 其他"]}, 
-    {"Name":"♻️ 自动选择", "Type":"url-test", "IncludeAll":true, "Exclude":["_cf"]}, 
-    {"Name":"🛫 代理节点", "Type":"select", "IncludeAll":true, "Exclude":["_cf"]},  
-    {"Name":"🔮 负载均衡", "Type":"load-balance", "IncludeAll":true, "Exclude":["_cf"]}, 
+    {"Name":"♻️ 自动选择", "Type":"url-test", "IncludeAll":true, "Exclude":["_cf", "中国"]}, 
+    {"Name":"🛫 代理节点", "Type":"select", "IncludeAll":true},  
+    {"Name":"🔮 负载均衡", "Type":"load-balance", "IncludeAll":true, "Exclude":["_cf", "中国"]}, 
     {"Name":"🇭🇰 香港", "Type":"select", "Proxies":["🇭🇰 香港自动", "🇭🇰 香港节点", "🇭🇰 香港负载"]}, 
     {"Name":"🇭🇰 香港自动", "Type":"url-test", "IncludeAll":true, "Include":["港|HK|hk|Hong Kong|HongKong|hongkong|深港"], "Exclude":["_cf"]}, 
     {"Name":"🇭🇰 香港节点", "Type":"select", "IncludeAll":true, "Include":["港|HK|hk|Hong Kong|HongKong|hongkong|深港"], "Exclude":["_cf"]}, 
