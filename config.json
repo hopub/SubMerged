@@ -11,10 +11,11 @@
     {
       "Name": "bestrui",
       "Urls": [
-        "https://v1.mk/wvJTV5I"
-      ],
-      "备份": [
         "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/all.yaml"
+      ],
+      "来源": "ld479434",
+      "备份": [
+        "https://bestsub.bestrui.ggff.net/share/bestsub/cdcefaa4-1f0d-462e-ba76-627b344989f2/speed.yaml"
       ]
     },
     {
@@ -109,9 +110,10 @@
     {
       "Name": "Leon406",
       "Urls": [
-        "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless",
-        "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/hysteria2"
-      ]
+        "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/hysteria2",
+        "https://raw.githubusercontent.com/Leon406/SubCrawler/main/sub/share/a11"
+      ],
+      "节点太多导致卡顿": "https://raw.githubusercontent.com/Leon406/SubCrawler/master/sub/share/vless"
     },
     {
       "Name": "mfbpn",
@@ -190,11 +192,11 @@
     },
     {
       "Name": "wzdnzd",
-      "来源": "https://github.com/wzdnzd/aggregator/issues/91",
       "Urls": [
-        "https://pm.enjoy.cloudns.biz/api/v1/subscribe?token=eb5v381wt80tmpiz&target=v2ray",
-        "https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=eb5v381wt80tmpiz&target=v2ray"
-      ]
+        "https://pm.enjoy.cloudns.biz/api/v1/subscribe?token=75kg8oxf4z16rwnf58mm&target=v2ray",
+        "https://proxy-manager-ggeu.onrender.com/api/v1/subscribe?token=75kg8oxf4z16rwnf58mm&target=v2ray"
+      ],
+      "来源": "https://github.com/wzdnzd/aggregator/issues/91"
     },
     {
       "Name": "xiaoji235",
